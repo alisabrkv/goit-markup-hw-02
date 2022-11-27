@@ -1,0 +1,19 @@
+body {
+    background-color: #ffff;
+    color: #434455;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: #4D5AE5;
+}
+
+.logo > span {
+    color: #2E2F42;;
+}
+/*заголовки color: #2E2F42;*/
+/*подзаголовки, разделы color: #2E2F42;*/
+/*текст color: #434455;*/
