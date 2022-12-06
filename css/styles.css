@@ -28,12 +28,18 @@ header {
     font-family: 'Raleway', cursive;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    
     text-decoration: none;
 }
 
 .logo-header > span {
     color: var(--title-text-color);
+
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
 }
 
 /* site nav */
@@ -43,7 +49,10 @@ header {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    
     text-decoration: none;
+    
 }
 
 .site-nav a:hover,
@@ -61,6 +70,10 @@ header {
 
 .contacts a {
     color: var(--primary-text-color);
+
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    
     text-decoration: none;
 }
 
@@ -77,6 +90,8 @@ header {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
+
     text-align: center;
 }
 
@@ -86,6 +101,8 @@ header {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
+    letter-spacing: 0.02em;
+
     text-align: center;
 }
 
@@ -99,6 +116,7 @@ header {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    letter-spacing: 0.04em;
 
     cursor: pointer;
 }
@@ -116,6 +134,7 @@ header {
  font-weight: 500;
  font-size: 16px;
  line-height: 1.5;
+ letter-spacing: 0.04em;
 
  cursor: pointer;
 }
@@ -136,6 +155,26 @@ header {
 
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+/* text */
+.text {
+    color: var(--primary-text-color);
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.text-card {
+    color: #F4F4FD;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* row */
@@ -152,14 +191,25 @@ header {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.3;
+    letter-spacing: 0.03em;
+
     text-decoration: none;
 }
 
 .logo-footer > span {
     color: #F4F4FD;
+
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 }
 
 /* text footer */
 .text-footer {
     color: #E7E9FC;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
